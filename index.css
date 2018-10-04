@@ -8,7 +8,7 @@
 }
 body
 {
-    background-color:lightblue;
+    background-color:#ffffb3;
 }
 .banner
 {
@@ -192,7 +192,6 @@ grid-template-columns:repeat(3,1fr) ;
 grid-auto-rows: 200px;
 grid-gap:10px;
 align-content: center;
-
 width:84.5%;
 margin:auto;
 
@@ -296,7 +295,7 @@ margin:auto;
 {
     grid-column:2 ;
     grid-row: 5 ;
-    background: ;
+    background: white;
     color:white;
     text-align: center;
 }
