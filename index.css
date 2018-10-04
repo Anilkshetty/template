@@ -4,11 +4,11 @@
         padding: 0;
         margin: 0;
         font-family: Trebuchet MS;
-     box-sizing: border-box;
+		box-sizing: border-box;
 }
 body
 {
-    background-color:#ffffb3;
+    background-color:lightblue;
 }
 .banner
 {
