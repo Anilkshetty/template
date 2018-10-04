@@ -1,0 +1,874 @@
+*
+{
+    
+        padding: 0;
+        margin: 0;
+        font-family: Trebuchet MS;
+     box-sizing: border-box;
+}
+body
+{
+    background-color:#ffffb3;
+}
+.banner
+{
+    background-image: url("image2.jpg");
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    max-width: 100%;
+}
+
+.mynavbar
+{
+	width:100%;
+	height:auto;
+    margin: auto;
+    background: gray;
+    position: fixed;
+
+    z-index: 1500;
+
+}
+.icon /*icon div*/
+{
+    width:10%;
+    float: left;
+    background: gray;
+    display: none;
+}
+.icon span
+{
+    font-size:35px;
+    padding: 5px;
+}
+ul
+{
+    list-style-type: none;
+    width:50%;
+    background:;
+    overflow: auto;
+    background:;
+    margin:auto;
+    
+    
+}
+ul li
+{
+  float: left;
+  text-align: center;
+  background:transparent;
+ 
+ 
+
+}
+li a
+{
+    text-decoration: none;
+    display:block;
+    padding: 14px 40px 14px 40px ;
+    text-align: center;
+    color: white;
+}
+li a:hover {
+    background-color:black;
+    text-decoration: none;
+    border-radius: 35%;
+    transition:2s;
+    color:red;
+
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left:0;
+    background-color:black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right:0;
+    font-size: 36px;
+   
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width:992px) {
+    body {
+         background-color:;
+    }
+    .icon /*icon div*/
+    {
+        width:100%;
+        float: left;
+        background: ;
+        display: block;
+    }
+    ul
+    {
+        display: none;
+        
+        
+    }
+}
+ 
+ 
+ 
+                  
+.thumbnail a>img, .thumbnail>img 
+{
+height: 250px;
+width: 100%;
+
+}
+.thumbnail
+{
+    height:300px;
+    text-align:center;
+
+    width:100%;
+    margin-top:5px;
+
+}
+.col-md-4   
+{
+    background-color:;
+    height: auto;
+}
+
+ @media screen and (max-width: 768px) {
+    body {
+        /* background-color:yellow; */
+    }
+ 
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+     
+{
+    margin-top:10px;
+   
+}
+.banner
+{ 
+    background-image: url("image16.jpg");
+    height:400px;
+}
+ }
+ /*css grid*/
+.mycontainer
+{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+grid-auto-rows: 200px;
+grid-gap:10px;
+align-content: center;
+
+width:84.5%;
+margin:auto;
+
+}
+.mysection1 
+{
+    grid-column:1 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;  
+}
+.mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+{
+    width: 100%;height:200px;
+    }
+
+
+.mysection2
+{
+    grid-column:2 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:3 ;
+    grid-row: 1;
+    background:;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:2 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:3 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1/3 ;
+    grid-row: 3/5;
+    background:;
+    color:white;
+    text-align: justify;
+    align-content: center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+}
+.mysection7 h3,.mysection8 h3
+{
+    text-align: center;
+}
+.mysection8
+{
+    grid-column:3/4 ;
+    grid-row: 3/6;
+    border-top:5px solid black;
+    color:white;
+    text-align: justify;
+    align-content:center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection9
+{
+    grid-column:1 ;
+    grid-row: 5 ;
+
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:2 ;
+    grid-row: 5 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    body {
+         background-color:;
+    }
+    .mycontainer
+    {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-auto-rows: 300px;
+    grid-gap:10px;
+    align-content: center;
+    width:90%;
+    margin:auto;
+    
+    } 
+    .mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+    {
+     width: 100%;
+     height:300px;
+        }  
+        .mysection1 
+        {
+            grid-column:1 ;
+            grid-row: 1;
+            background: ;
+            color:white;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            display: grid;  
+        }
+        .mysection2
+{
+    grid-column:2 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:2 ;
+    grid-row: 2;
+    background: ;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:1 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:2 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1/3 ;
+    grid-row: 4/5;
+    background: ;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    overflow: hidden;
+    border-bottom:none;
+}
+
+.mysection8
+{
+    grid-column:1/3 ;
+    grid-row: 5/7;
+    text-align: center;
+    align-content:center;
+    display: grid;
+    overflow: hidden;
+    border-bottom:5px solid black;
+}
+.mysection9
+{
+    grid-column:1;
+    grid-row: 7 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:2 ;
+    grid-row: 7 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+}
+@media screen and (max-width: 600px) {
+    body {
+         background-color:;
+    }
+    .mycontainer
+    {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-auto-rows: 200px;
+    grid-gap:10px;
+    align-content: center;
+    width:90%;
+    margin:auto;
+    
+    } 
+    .mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+    {
+     width: 100%;
+     height:200px;
+        }  
+        .mysection1 
+        {
+            grid-column:1 ;
+            grid-row: 1;
+            background: ;
+            color:white;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            display: grid;  
+        }
+        .mysection2
+{
+    grid-column:2 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: red;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:2 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:1 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:2 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1/3 ;
+    grid-row: 4/6;
+    background: ;
+    color:white;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+
+.mysection8
+{
+    grid-column:1/3 ;
+    grid-row: 6/9;
+    color:white;
+    text-align: center;
+    align-content:center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection9
+{
+    grid-column:1;
+    grid-row: 9 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:2 ;
+    grid-row: 9 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+}
+@media screen and (max-width: 600px) {
+    body {
+         background-color:;
+    }
+    .mycontainer
+    {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-auto-rows: 200px;
+    grid-gap:10px;
+    align-content: center;
+    width:90%;
+    margin:auto;
+    
+    } 
+    .mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+    {
+     width: 100%;
+     height:200px;
+        }  
+        .mysection1 
+        {
+            grid-column:1 ;
+            grid-row: 1;
+            background: ;
+            color:white;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            display: grid;  
+        }
+        .mysection2
+{
+    grid-column:2 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:2 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:1 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:2 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1/3 ;
+    grid-row: 4/6;
+    background: ;
+    color:white;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+
+.mysection8
+{
+    grid-column:1/3 ;
+    grid-row: 6/9;
+    color:white;
+    text-align: center;
+    align-content:center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection9
+{
+    grid-column:1;
+    grid-row: 9 ;
+    background:;
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:2 ;
+    grid-row: 9 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+}
+@media screen and (max-width: 600px) {
+    body {
+         background-color:;
+    }
+    .mycontainer
+    {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-auto-rows: 200px;
+    grid-gap:10px;
+    align-content: center;
+    width:90%;
+    margin:auto;
+    
+    } 
+    .mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+    {
+     width: 100%;
+     height:200px;
+        }  
+        .mysection1 
+        {
+            grid-column:1 ;
+            grid-row: 1;
+            background: ;
+            color:white;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            display: grid;  
+        }
+        .mysection2
+{
+    grid-column:2 ;
+    grid-row: 1;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:2 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:1 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:2 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1/3 ;
+    grid-row: 4/6;
+    background: ;
+    color:white;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+
+.mysection8
+{
+    grid-column:1/3 ;
+    grid-row: 6/9;
+    color:white;
+    text-align: center;
+    align-content:center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection9
+{
+    grid-column:1;
+    grid-row: 9 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:2 ;
+    grid-row: 9 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+}
+@media screen and (max-width: 480px) {
+    body {
+         background-color:;
+    }
+    .mycontainer
+    {
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    grid-auto-rows: 200px;
+    grid-gap:10px;
+    align-content: center;
+    width:90%;
+    margin:auto;
+    
+    } 
+    .mysection1 img, .mysection2 img,.mysection3 img , .mysection4 img ,.mysection5 img,.mysection6 img, .mysection9 img , .mysection10 img
+    {
+     width: 100%;
+     height:200px;
+        }  
+        .mysection1 
+        {
+            grid-column:1 ;
+            grid-row: 1;
+            background: ;
+            color:white;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            display: grid;  
+        }
+        .mysection2
+{
+    grid-column:1 ;
+    grid-row: 2;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection3
+{
+    grid-column:1 ;
+    grid-row: 3;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection4
+{
+    grid-column:1 ;
+    grid-row: 4;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection5
+{
+    grid-column:1 ;
+    grid-row: 5;
+    background: ed;
+    color:white;
+    text-align: center;
+}
+.mysection6
+{
+    grid-column:1 ;
+    grid-row: 6;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection7
+{
+    grid-column:1 ;
+    grid-row: 7/9;
+    background: ;
+    text-align: justify;
+    align-content: center;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection7 h3
+{
+    text-align: center;
+    color: red;
+}
+
+.mysection8
+{
+    grid-column:1 ;
+    grid-row: 9/12;
+    color:white;
+    text-align: justify;
+    align-content:justify;
+    display: grid;
+    color: blue;
+    overflow: hidden;
+}
+.mysection8 h3
+{
+    text-align: center;
+    color: red;
+}
+.mysection9
+{
+    grid-column:1;
+    grid-row: 12 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+.mysection10
+{
+    grid-column:1 ;
+    grid-row: 13 ;
+    background: ;
+    color:white;
+    text-align: center;
+}
+}
